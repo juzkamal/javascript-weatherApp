@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Info</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Get Weather Information</h1>
-    <form id="weatherForm">
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city" required>
-        
-        <button type="submit">Get Weather</button>
-    </form>
-
+    <div class="container">
+        <h2 class="merriweather-regular">Weather App</h2>
+        <div class="form-container">
+            <form id="weatherForm">
+                <input type="text" id="city" name="city" required placeholder="City">
+                
+                <button type="submit">Get Weather</button>
+            </form>
+        </div>
     <div id="weatherResult"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

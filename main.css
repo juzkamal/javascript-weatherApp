@@ -1,0 +1,55 @@
+
+body{
+    top: 0;
+    /* background: linear-gradient(45deg, #FEF9D9, #D2E0FB); */
+    background: linear-gradient(45deg, #be5d5d, #D8A25E);
+    height: 97vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+  
+.merriweather-regular {
+font-family: "Merriweather", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.form-container{
+    display: flex;
+    width: 50%; 
+    /* background-color: red; */
+    justify-content: center;
+    
+}
+form{
+    width: 60%;
+    margin: auto;
+}
+input{
+    padding: 10px;
+    border-radius: 16px 2px 2px 16px;
+    margin-right: 0;
+    width: 60%;
+    border: 1px solid #c0c0c0;
+    outline: none;
+}
+
+
+input:hover{
+    border: 1px solid #303030;
+}
+
+button{
+    padding: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px 16px 16px 2px;
+}
