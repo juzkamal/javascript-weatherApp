@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('weatherForm');
     const resultDiv = document.getElementById('weatherResult');
-    const apiKey = '304fb3d5a4286003b841c2146b7dc997'; 
+    const apiKey = 'YOUR_API_KEY'
+    // const apiKey = '304fb3d5a4286003b841c2146b7dc997'; 
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
     form.addEventListener('submit', async (event) => {
