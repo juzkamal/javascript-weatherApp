@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const humidityElement = document.getElementById('humidity');
     const windSpeedElement = document.getElementById('windSpeed');
     const cityElement = document.getElementById('city-header');
-    const apiKey = 'Your_API_KEY'
-    //const apiKey = '304fb3d5a4286003b841c2146b7dc997'; 
+    const apiKey = 'Your_API_KEY';
     const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
     form.addEventListener('submit', async (event) => {
